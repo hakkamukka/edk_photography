@@ -90,33 +90,28 @@ def articles_by_year(year)
 end
 
 def articles_by_year_month
-	result = {}
-	current_year = current_month = year_h = month_a = nil
+  result = {}
+  current_year = current_month = year_h = month_a = nil
 
-	sorted_articles.each do |item|
-		d = Date.parse(item[:creaed_at])
-		if current_year != d.year
-			current_month = nil
-			current_year = d.year
-			year_h = result[current_year] = {}
-		end
+  sorted_articles.each do |item|
+    d = Date.parse(item[:created_at])
+    if current_year != d.year
+      current_month = nil
+      current_year = d.year
+      year_h = result[current_year] = {}
+    end
 
-		if current_month != d.month
-			current_month = d.month
-			month_a = year_h[current_month] = []
-		end
+    if current_month != d.month
+      current_month = d.month
+      month_a = year_h[current_month] = [] 
+    end
 
-		month_a << item
+    month_a << item
+  end
+
+  result
 end
 
-
-
-
-
-
-
-
-
-
-
-
+def is_front_page?
+    @item.identifier == '/'
+end

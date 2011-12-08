@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"ª<!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"ç<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -100,6 +100,7 @@
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -342,7 +343,7 @@ a:hover {
   line-height: 20px;
 }
 ;T;	@;
-@I"/about/;T{;{	;I"²<!DOCTYPE HTML>
+@I"/about/;T{;{	;I"ï<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -385,6 +386,7 @@ a:hover {
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -582,7 +584,7 @@ I"Uni exams long gone. Summer trip (or winter for some of you) coming up. Wha
 <p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
 
 
-<a href="/">Return home...</a>;T;@&I"/contact-me/;T{;{	;I"&<!DOCTYPE HTML>
+<a href="/">Return home...</a>;T;@&I"/contact-me/;T{;{	;I"c<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -623,6 +625,7 @@ I"Uni exams long gone. Summer trip (or winter for some of you) coming up. Wha
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -986,7 +989,7 @@ I"M
 
 INSERT CONTENT IN EXCERPT AS WELL HERE
 
-<a href="/">Return home...</a>;T;@JI"/2011/12-08-hello-world/;T{;{	;I" <!DOCTYPE HTML>
+<a href="/">Return home...</a>;T;@JI"/2011/12-08-hello-world/;T{;{	;I"=<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1028,6 +1031,7 @@ INSERT CONTENT IN EXCERPT AS WELL HERE
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -1049,7 +1053,7 @@ I"T
 
 INSERT CONTENT IN EXCERPT AS WELL HERE
 
-<p><a href="/">Return home...</a></p>;T;@PI"4/2011/20111002-edk-photography-going-backwards/;T{;{	;I"H
+<p><a href="/">Return home...</a></p>;T;@PI"4/2011/20111002-edk-photography-going-backwards/;T{;{	;I"…
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -1102,6 +1106,7 @@ INSERT CONTENT IN EXCERPT AS WELL HERE
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -1143,7 +1148,7 @@ I"kWelcome to the new EdK Photography, by Edward Khou. While the site may appe
 
 <p>... Now where is that Facebook footer and commenting system...</p>
 
-<p>Have a good one!</p>;T;@VI"'/2011/20111003-things-of-the-past/;T{;{	;I"ª	<!DOCTYPE HTML>
+<p>Have a good one!</p>;T;@VI"'/2011/20111003-things-of-the-past/;T{;{	;I"ç	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1187,6 +1192,7 @@ I"kWelcome to the new EdK Photography, by Edward Khou. While the site may appe
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -1212,7 +1218,7 @@ I"¢Starting off on a clean slate here.
 
 <img src="https://lh3.googleusercontent.com/-Sd3xVYfv9b8/TdcRU6do4HI/AAAAAAAAAKI/lTGZO_MVOSs/s640/warriewood01.jpg">
 
-<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg">;T;@\I"/2011/20111202-resume/;T{;{	;I"	<!DOCTYPE HTML>
+<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg">;T;@\I"/2011/20111202-resume/;T{;{	;I"A	<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1262,6 +1268,7 @@ I"¢Starting off on a clean slate here.
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -1299,7 +1306,7 @@ I"Uni exams long gone. Summer trip (or winter for some of you) coming up. Wha
 <p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
 
 
-<a href="/">Return home...</a>;T;@bI"&/2011/20111205-another-blog-post/;T{;{	;I"<!DOCTYPE HTML>
+<a href="/">Return home...</a>;T;@bI"&/2011/20111205-another-blog-post/;T{;{	;I"[<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1338,6 +1345,7 @@ I"Uni exams long gone. Summer trip (or winter for some of you) coming up. Wha
         <li><a href="/">Home</a></li>
         <li><a href="/about/index.html">About Me</a></li>
         <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
       </ul>
       <h2>Social</h2>
       <ul>
@@ -1352,4 +1360,80 @@ I"Uni exams long gone. Summer trip (or winter for some of you) coming up. Wha
 
 ;T;	I"!Another blog post. How lame.;T;
 I")<p>Another blog post. How lame.</p>
-;T;@h:versioni
+;T;@hI"/archives/;T{;{	;I"ƒ<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Archives</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Archives</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/archives" rel="tag">archives</a>, <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+      
+	
+	<h2>#{year} #{to_month_s(month)}</h2>
+
+	
+	<h2>#{year} #{to_month_s(month)}</h2>
+
+	
+
+ 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"™<% articles_by_year_month.each do |year, month_h| %>
+	<% month_h.each do |month, item_a| %>
+	<h2>#{year} #{to_month_s(month)}</h2>
+
+	<% end %>
+
+<% end %>;T;
+I"]
+	
+	<h2>#{year} #{to_month_s(month)}</h2>
+
+	
+	<h2>#{year} #{to_month_s(month)}</h2>
+
+	
+
+;T;@n:versioni
