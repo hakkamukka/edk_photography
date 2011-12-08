@@ -1,0 +1,1355 @@
+{:	data{I"/:ET{:default{	:	lastI"ª<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - </title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2></h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/info" rel="tag">info</a>, <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+      <p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
+
+<p>Plenty of content is in the pipeline but unfortunately will have to wait until all this is done so please do check back some time in the future. Hopefully by then I will have the foundation setup. All ready to go, for you.</p>
+
+<p>Take care!</p>
+
+<p>Cheers, Ed</p>
+
+
+  
+    <h2>Hello World</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Dec 08, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/misc" rel="tag">misc</a></h3>
+    <p></p>
+    <a href="/2011/12-08-hello-world/">Read more...	</a>
+  
+    <h2>Another Blog Post</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Dec 05, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/poops" rel="tag">poops</a></h3>
+    <p></p>
+    <a href="/2011/20111205-another-blog-post/">Read more...	</a>
+  
+    <h2>Resume...</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Dec 02, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/paps" rel="tag">paps</a></h3>
+    <p>Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?</p>
+    <a href="/2011/20111202-resume/">Read more...	</a>
+  
+    <h2>Things of the Past</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Oct 03, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/events" rel="tag">events</a>, <a href="http://technorati.com/tag/scenic" rel="tag">scenic</a>, <a href="http://technorati.com/tag/portrait" rel="tag">portrait</a>, <a href="http://technorati.com/tag/equipment" rel="tag">equipment</a>, <a href="http://technorati.com/tag/info" rel="tag">info</a></h3>
+    <p>Starting off on a clean slate here.</p>
+    <a href="/2011/20111003-things-of-the-past/">Read more...	</a>
+  
+    <h2>EdK Photography Going Backwards...</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Oct 02, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+    <p>Welcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.</p>
+    <a href="/2011/20111002-edk-photography-going-backwards/">Read more...	</a>
+ 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T:rawI"<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
+
+<p>Plenty of content is in the pipeline but unfortunately will have to wait until all this is done so please do check back some time in the future. Hopefully by then I will have the foundation setup. All ready to go, for you.</p>
+
+<p>Take care!</p>
+
+<p>Cheers, Ed</p>
+
+
+<% sorted_articles.first(20).each do |article| %>  
+    <h2><%= article[:title] %></h2>
+    <% if article[:author] %>
+    	<h3>Article written by <%= article[:author] %>.</h3>
+    <% end %>
+    <% if article[:created_at] %>
+        <h3><%= pretty_time(article[:created_at]) %></h3>
+    <% end %>
+    <h3>Tags: <%= tags_for(article) %></h3>
+    <p><%= article[:excerpt] %></p>
+    <a href="<%= article.path %>">Read more...	</a>
+<% end %>;T:preI"Ô	<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
+
+<p>Plenty of content is in the pipeline but unfortunately will have to wait until all this is done so please do check back some time in the future. Hopefully by then I will have the foundation setup. All ready to go, for you.</p>
+
+<p>Take care!</p>
+
+<p>Cheers, Ed</p>
+
+
+  
+    <h2>Hello World</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Dec 08, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/misc" rel="tag">misc</a></h3>
+    <p></p>
+    <a href="/2011/12-08-hello-world/">Read more...	</a>
+  
+    <h2>Another Blog Post</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Dec 05, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/poops" rel="tag">poops</a></h3>
+    <p></p>
+    <a href="/2011/20111205-another-blog-post/">Read more...	</a>
+  
+    <h2>Resume...</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Dec 02, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/paps" rel="tag">paps</a></h3>
+    <p>Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?</p>
+    <a href="/2011/20111202-resume/">Read more...	</a>
+  
+    <h2>Things of the Past</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Oct 03, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/events" rel="tag">events</a>, <a href="http://technorati.com/tag/scenic" rel="tag">scenic</a>, <a href="http://technorati.com/tag/portrait" rel="tag">portrait</a>, <a href="http://technorati.com/tag/equipment" rel="tag">equipment</a>, <a href="http://technorati.com/tag/info" rel="tag">info</a></h3>
+    <p>Starting off on a clean slate here.</p>
+    <a href="/2011/20111003-things-of-the-past/">Read more...	</a>
+  
+    <h2>EdK Photography Going Backwards...</h2>
+    
+    	<h3>Article written by edk.</h3>
+    
+    
+        <h3>Oct 02, 2011</h3>
+    
+    <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+    <p>Welcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.</p>
+    <a href="/2011/20111002-edk-photography-going-backwards/">Read more...	</a>
+;T:	post@
+I"/stylesheet/;T{;{;I"î* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 640px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main h2 {
+  font-size: 30px;
+  font-weight: normal;
+
+  line-height: 80px;
+}
+
+#main h3 {
+  font-size: 12px;
+  font-weight: normal;
+
+  text-align: right;
+}
+
+#main p {
+  margin: 20px 0;
+  
+  font-size: 15px;
+  
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+  
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#article-footer {
+  position: absolute;
+
+  width: 640px;
+}
+
+#article-footer p {
+  line-height: 30px;
+}
+
+#content-footer {
+  position: absolute;
+
+  left: 0px;
+  width: 640px;
+}
+
+#content-footer p {
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#share {
+  position: absolute;
+
+  text-align: center;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+;T;	@;
+@I"/about/;T{;{	;I"²<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - About Me</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>About Me</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/info" rel="tag">info</a>, <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+      <p>Welcome to EdK Photography - I am a self-taught photographer based in Sydney, Australia.</p>
+
+<p>This blog site will exhibit my latest endeavours as part of my development as a photographer. Please feel free to browse around. If you wish to take it that bit further, have a couple questions; shoot an email and we can take it from there. Looking forward to working with you soon.</p>
+
+<p>Feel free to visit my blog stream to check out what Iâ€™m up to!</p>
+ 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"¶Welcome to EdK Photography - I am a self-taught photographer based in Sydney, Australia.
+
+This blog site will exhibit my latest endeavours as part of my development as a photographer. Please feel free to browse around. If you wish to take it that bit further, have a couple questions; shoot an email and we can take it from there. Looking forward to working with you soon.
+
+Feel free to visit my blog stream to check out what Iâ€™m up to!;T;
+I"Ì<p>Welcome to EdK Photography - I am a self-taught photographer based in Sydney, Australia.</p>
+
+<p>This blog site will exhibit my latest endeavours as part of my development as a photographer. Please feel free to browse around. If you wish to take it that bit further, have a couple questions; shoot an email and we can take it from there. Looking forward to working with you soon.</p>
+
+<p>Feel free to visit my blog stream to check out what Iâ€™m up to!</p>
+;T;@I"/contact_me/;T{;{	;I"6<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+  
+    <div id="main">
+      <h1>Contact Me</h1>
+      
+        <p>This page was written by edk.</p>
+      
+      <p>Tags: <a href="http://technorati.com/tag/info" rel="tag">info</a>, <a href="http://technorati.com/tag/edk" rel="tag">edk</a></p>
+      Email: ed@edkhou.com
+
+Mobile: +61 466 423 633 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact_me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"2Email: ed@edkhou.com
+
+Mobile: +61 466 423 633;T;
+I"2Email: ed@edkhou.com
+
+Mobile: +61 466 423 633;T;@I" /20111202_sample_blog_post/;T{;{	;I"2<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Sample Blog Post</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+  
+    <div id="main">
+      <h1>Sample Blog Post</h1>
+      
+        <p>This page was written by edk.</p>
+      
+      <p>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/paps" rel="tag">paps</a></p>
+      <p>Hi, Iâ€™m a new item!</p>
+ 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact_me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"Hi, I'm a new item!;T;
+I""<p>Hi, Iâ€™m a new item!</p>
+;T;@ I" /20111202-sample-blog-post/;T{;{	;I"|<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Resume...</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Resume...</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/paps" rel="tag">paps</a></h3>
+      Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"à<%= item[:excerpt] %>
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a>;T;
+I"Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a>;T;@&I"/contact-me/;T{;{	;I"&<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Contact Me</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/info" rel="tag">info</a>, <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+      <p>Email: ed@edkhou.com</p>
+
+<p>Mobile: +61 466 423 633</p>
+ 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"2Email: ed@edkhou.com
+
+Mobile: +61 466 423 633;T;
+I"A<p>Email: ed@edkhou.com</p>
+
+<p>Mobile: +61 466 423 633</p>
+;T;@,I"!/20111205-another-blog-post/;T{;{	;I"–<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Another Blog Post</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Another Blog Post</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/poops" rel="tag">poops</a></h3>
+      <p>Another blog post. How lame.</p>
+ 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"!Another blog post. How lame.;T;
+I")<p>Another blog post. How lame.</p>
+;T;@2I"//20111002-edk-photography-going-backwards/;T{;{	;I"À	<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - EdK Photography Going Backwards...</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>EdK Photography Going Backwards...</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+      Welcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.
+
+<p>Fundamentally, this site should now load faster considering everything in the backend is static (no stored procedures calls to a database, just pure HTML). Bits and bobs are somewhat dynamic but that is all thanks to plugins built with JavaScript for some good old client-side rendering. And the best part about this? Hosted on Amazon's S3.</p>
+
+<p>The overall picture:</p>
+
+<ol>
+	<li>Faster browsing experience (I hope so; maybe faster to bounce off my website :D)</li>
+	<li>Easier for me to maintain the content</li>
+	<li>More control over the things I want to do</li>
+</ol>
+
+<p>... Now where is that Facebook footer and commenting system...</p>
+
+<p>Have a good one!</p> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"º<%= item[:excerpt] %>
+
+<p>Fundamentally, this site should now load faster considering everything in the backend is static (no stored procedures calls to a database, just pure HTML). Bits and bobs are somewhat dynamic but that is all thanks to plugins built with JavaScript for some good old client-side rendering. And the best part about this? Hosted on Amazon's S3.</p>
+
+<p>The overall picture:</p>
+
+<ol>
+	<li>Faster browsing experience (I hope so; maybe faster to bounce off my website :D)</li>
+	<li>Easier for me to maintain the content</li>
+	<li>More control over the things I want to do</li>
+</ol>
+
+<p>... Now where is that Facebook footer and commenting system...</p>
+
+<p>Have a good one!</p>;T;
+I"kWelcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.
+
+<p>Fundamentally, this site should now load faster considering everything in the backend is static (no stored procedures calls to a database, just pure HTML). Bits and bobs are somewhat dynamic but that is all thanks to plugins built with JavaScript for some good old client-side rendering. And the best part about this? Hosted on Amazon's S3.</p>
+
+<p>The overall picture:</p>
+
+<ol>
+	<li>Faster browsing experience (I hope so; maybe faster to bounce off my website :D)</li>
+	<li>Easier for me to maintain the content</li>
+	<li>More control over the things I want to do</li>
+</ol>
+
+<p>... Now where is that Facebook footer and commenting system...</p>
+
+<p>Have a good one!</p>;T;@8I"/20111202-resume/;T{;{	;I"|<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Resume...</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Resume...</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/paps" rel="tag">paps</a></h3>
+      Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"à<%= item[:excerpt] %>
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a>;T;
+I"Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a>;T;@>I""/20111003-things-of-the-past/;T{;{	;I""	<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Things of the Past</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Things of the Past</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/events" rel="tag">events</a>, <a href="http://technorati.com/tag/scenic" rel="tag">scenic</a>, <a href="http://technorati.com/tag/portrait" rel="tag">portrait</a>, <a href="http://technorati.com/tag/equipment" rel="tag">equipment</a>, <a href="http://technorati.com/tag/info" rel="tag">info</a></h3>
+      Starting off on a clean slate here.
+
+<p><img src="https://lh5.googleusercontent.com/-CGaFTcH7-zo/TcZwI5L_fFI/AAAAAAAAAJk/ZjO1S8uG9LU/s640/circular_quay-3%252520copy.jpg"></p>
+
+<img src="https://lh3.googleusercontent.com/-Sd3xVYfv9b8/TdcRU6do4HI/AAAAAAAAAKI/lTGZO_MVOSs/s640/warriewood01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg"> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"”<%= item[:excerpt] %>
+
+<p><img src="https://lh5.googleusercontent.com/-CGaFTcH7-zo/TcZwI5L_fFI/AAAAAAAAAJk/ZjO1S8uG9LU/s640/circular_quay-3%252520copy.jpg"></p>
+
+<img src="https://lh3.googleusercontent.com/-Sd3xVYfv9b8/TdcRU6do4HI/AAAAAAAAAKI/lTGZO_MVOSs/s640/warriewood01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg">;T;
+I"¢Starting off on a clean slate here.
+
+<p><img src="https://lh5.googleusercontent.com/-CGaFTcH7-zo/TcZwI5L_fFI/AAAAAAAAAJk/ZjO1S8uG9LU/s640/circular_quay-3%252520copy.jpg"></p>
+
+<img src="https://lh3.googleusercontent.com/-Sd3xVYfv9b8/TdcRU6do4HI/AAAAAAAAAKI/lTGZO_MVOSs/s640/warriewood01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg">;T;@DI"/2011/12-07-hello-world/;T{;{	;I"q<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Hello World</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Hello World</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/misc" rel="tag">misc</a></h3>
+      
+
+INSERT CONTENT IN EXCERPT AS WELL HERE
+
+<a href="/">Return home...</a> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+;T;	I"b<%= item[:excerpt] %>
+
+INSERT CONTENT IN EXCERPT AS WELL HERE
+
+<a href="/">Return home...</a>;T;
+I"M
+
+INSERT CONTENT IN EXCERPT AS WELL HERE
+
+<a href="/">Return home...</a>;T;@JI"/2011/12-08-hello-world/;T{;{	;I" <!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Hello World</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Hello World</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/misc" rel="tag">misc</a></h3>
+      
+
+INSERT CONTENT IN EXCERPT AS WELL HERE
+
+<p><a href="/">Return home...</a></p> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"i<%= item[:excerpt] %>
+
+INSERT CONTENT IN EXCERPT AS WELL HERE
+
+<p><a href="/">Return home...</a></p>;T;
+I"T
+
+INSERT CONTENT IN EXCERPT AS WELL HERE
+
+<p><a href="/">Return home...</a></p>;T;@PI"4/2011/20111002-edk-photography-going-backwards/;T{;{	;I"H
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - EdK Photography Going Backwards...</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>EdK Photography Going Backwards...</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h3>
+      Welcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.
+
+<p>Fundamentally, this site should now load faster considering everything in the backend is static (no stored procedures calls to a database, just pure HTML). Bits and bobs are somewhat dynamic but that is all thanks to plugins built with JavaScript for some good old client-side rendering. And the best part about this? Hosted on Amazon's S3.</p>
+
+<p>The overall picture:</p>
+
+<ol>
+	<li>Faster browsing experience (I hope so; maybe faster to bounce off my website :D)</li>
+	<li>Easier for me to maintain the content</li>
+	<li>More control over the things I want to do</li>
+</ol>
+
+<p>... Now where is that Facebook footer and commenting system...</p>
+
+<p>Have a good one!</p> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"º<%= item[:excerpt] %>
+
+<p>Fundamentally, this site should now load faster considering everything in the backend is static (no stored procedures calls to a database, just pure HTML). Bits and bobs are somewhat dynamic but that is all thanks to plugins built with JavaScript for some good old client-side rendering. And the best part about this? Hosted on Amazon's S3.</p>
+
+<p>The overall picture:</p>
+
+<ol>
+	<li>Faster browsing experience (I hope so; maybe faster to bounce off my website :D)</li>
+	<li>Easier for me to maintain the content</li>
+	<li>More control over the things I want to do</li>
+</ol>
+
+<p>... Now where is that Facebook footer and commenting system...</p>
+
+<p>Have a good one!</p>;T;
+I"kWelcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.
+
+<p>Fundamentally, this site should now load faster considering everything in the backend is static (no stored procedures calls to a database, just pure HTML). Bits and bobs are somewhat dynamic but that is all thanks to plugins built with JavaScript for some good old client-side rendering. And the best part about this? Hosted on Amazon's S3.</p>
+
+<p>The overall picture:</p>
+
+<ol>
+	<li>Faster browsing experience (I hope so; maybe faster to bounce off my website :D)</li>
+	<li>Easier for me to maintain the content</li>
+	<li>More control over the things I want to do</li>
+</ol>
+
+<p>... Now where is that Facebook footer and commenting system...</p>
+
+<p>Have a good one!</p>;T;@VI"'/2011/20111003-things-of-the-past/;T{;{	;I"ª	<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Things of the Past</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Things of the Past</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/events" rel="tag">events</a>, <a href="http://technorati.com/tag/scenic" rel="tag">scenic</a>, <a href="http://technorati.com/tag/portrait" rel="tag">portrait</a>, <a href="http://technorati.com/tag/equipment" rel="tag">equipment</a>, <a href="http://technorati.com/tag/info" rel="tag">info</a></h3>
+      Starting off on a clean slate here.
+
+<p><img src="https://lh5.googleusercontent.com/-CGaFTcH7-zo/TcZwI5L_fFI/AAAAAAAAAJk/ZjO1S8uG9LU/s640/circular_quay-3%252520copy.jpg"></p>
+
+<img src="https://lh3.googleusercontent.com/-Sd3xVYfv9b8/TdcRU6do4HI/AAAAAAAAAKI/lTGZO_MVOSs/s640/warriewood01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg"> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"”<%= item[:excerpt] %>
+
+<p><img src="https://lh5.googleusercontent.com/-CGaFTcH7-zo/TcZwI5L_fFI/AAAAAAAAAJk/ZjO1S8uG9LU/s640/circular_quay-3%252520copy.jpg"></p>
+
+<img src="https://lh3.googleusercontent.com/-Sd3xVYfv9b8/TdcRU6do4HI/AAAAAAAAAKI/lTGZO_MVOSs/s640/warriewood01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg">;T;
+I"¢Starting off on a clean slate here.
+
+<p><img src="https://lh5.googleusercontent.com/-CGaFTcH7-zo/TcZwI5L_fFI/AAAAAAAAAJk/ZjO1S8uG9LU/s640/circular_quay-3%252520copy.jpg"></p>
+
+<img src="https://lh3.googleusercontent.com/-Sd3xVYfv9b8/TdcRU6do4HI/AAAAAAAAAKI/lTGZO_MVOSs/s640/warriewood01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ub5pzKzuPeo/TeDYCRd--aI/AAAAAAAAAME/ic7pbRyRca4/s640/1105laperouse-3-edit.jpg">;T;@\I"/2011/20111202-resume/;T{;{	;I"	<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Resume...</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Resume...</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/paps" rel="tag">paps</a></h3>
+      Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"à<%= item[:excerpt] %>
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a>;T;
+I"Uni exams long gone. Summer trip (or winter for some of you) coming up. What now?
+
+<p>There is so much to do yet I find myself not doing any of it. So for the meantime, I will leave with you an image taken back on January 26, 2011. An awesome road trip with 
+	<a href="">Daniel</a>, 
+	<a href="">Jack</a>, 
+	<a href="">Zak</a> and 
+	<a href="">Andrew</a>.
+</p>
+
+<p><img src="https://lh5.googleusercontent.com/-SaQqjc2YCsQ/TjPqCDjdRUI/AAAAAAAAADc/u8tvyLzNJ08/s640/110730110730_m8_copy.jpg" alt="picture"></p>
+
+
+<a href="/">Return home...</a>;T;@bI"&/2011/20111205-another-blog-post/;T{;{	;I"<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Another Blog Post</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
+      <h2>Another Blog Post</h2>
+      
+        <h3>This page was written by edk.</h3>
+      
+      <h3>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/poops" rel="tag">poops</a></h3>
+      <p>Another blog post. How lame.</p>
+ 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"!Another blog post. How lame.;T;
+I")<p>Another blog post. How lame.</p>
+;T;@h:versioni

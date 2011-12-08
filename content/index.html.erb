@@ -1,0 +1,34 @@
+--- 
+title: ""
+author: "edk"
+permalink: home
+filter: erb
+tags:
+- info
+- edk
+kind: home
+created_at: 2011/12/02
+---
+
+
+<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
+
+<p>Plenty of content is in the pipeline but unfortunately will have to wait until all this is done so please do check back some time in the future. Hopefully by then I will have the foundation setup. All ready to go, for you.</p>
+
+<p>Take care!</p>
+
+<p>Cheers, Ed</p>
+
+
+<% sorted_articles.first(20).each do |article| %>  
+    <h2><%= article[:title] %></h2>
+    <% if article[:author] %>
+    	<h3>Article written by <%= article[:author] %>.</h3>
+    <% end %>
+    <% if article[:created_at] %>
+        <h3><%= pretty_time(article[:created_at]) %></h3>
+    <% end %>
+    <h3>Tags: <%= tags_for(article) %></h3>
+    <p><%= article[:excerpt] %></p>
+    <a href="<%= article.path %>">Read more...	</a>
+<% end %>
