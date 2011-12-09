@@ -23,12 +23,12 @@ created_at: 2011/12/02
 <% sorted_articles.first(20).each do |article| %>  
     <h2><%= article[:title] %></h2>
     <% if article[:author] %>
-    	<h3>Article written by <%= article[:author] %>.</h3>
+    	<h4>Article written by <%= article[:author] %>.</h4>
     <% end %>
     <% if article[:created_at] %>
-        <h3><%= pretty_time(article[:created_at]) %></h3>
+        <h4><%= pretty_time(article[:created_at]) %></h4>
     <% end %>
-    <h3>Tags: <%= tags_for(article) %></h3>
+    <h4>Tags: <%= tags_for(article) %></h4>
     <p><%= article[:excerpt] %></p>
     <a href="<%= article.path %>">Read more...	</a>
 <% end %>

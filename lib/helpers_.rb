@@ -112,6 +112,7 @@ def articles_by_year_month
   result
 end
 
-def is_front_page?
-    @item.identifier == '/'
+def to_month_s(month)
+	Date.new(2010, month).strftime("%B")
 end
+

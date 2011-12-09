@@ -13,12 +13,11 @@
       <a href="/">
         <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
       </a>
-      <!-- <h1><a href="/">EdK Photography | Sydney Based Photographer</a></h1> -->
       <h2><%= @item[:title] %></h2>
       <% if @item[:author] %>
-        <h3>This page was written by <%= @item[:author] %>.</h3>
+        <h4>This page was written by <%= @item[:author] %>.</h4>
       <% end %>
-      <h3>Tags: <%= tags_for(@item) %></h3>
+      <h4>Tags: <%= tags_for(@item) %></h4>
       <%= yield %> 
       <div id="content-footer">
         <div id="share">

@@ -48,6 +48,11 @@ a:hover {
 }
 
 #main h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#main h4 {
   font-size: 12px;
   font-weight: normal;
 
@@ -60,6 +65,8 @@ a:hover {
   font-size: 15px;
   
   line-height: 20px;
+
+  text-align: justify;
 }
 
 #main ul, #main ol {

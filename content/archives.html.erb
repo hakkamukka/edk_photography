@@ -11,8 +11,15 @@ created_at: 2011/12/02
 ---
 <% articles_by_year_month.each do |year, month_h| %>
 	<% month_h.each do |month, item_a| %>
-	<h2>#{year} #{to_month_s(month)}</h2>
-
+	<h3><%= year %> <%= to_month_s(month) %></h3>
+	<ul>
+		<% item_a.each do |item| %>
+			<li>
+				<a href="<%= item.path %>"><%= item[:title] %></a>
+			</li>
+		<% end %>
+	</ul>
+		
 	<% end %>
 
 <% end %>
