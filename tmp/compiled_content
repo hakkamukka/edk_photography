@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"6<!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"L<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -20,13 +20,24 @@
       <h4>Tags: <a href="http://technorati.com/tag/info" rel="tag">info</a>, <a href="http://technorati.com/tag/edk" rel="tag">edk</a></h4>
       <p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
 
-<p>Plenty of content is in the pipeline but unfortunately will have to wait until all this is done so please do check back some time in the future. Hopefully by then I will have the foundation setup. All ready to go, for you.</p>
+<p>BUT functional. A bit. Content will trickle through while I continue to work on it so continue checking back or follow me on FaceBook (<a href="http://www.facebook.com/edkhouphoto">edkhouphoto</a>) or Twitter (<a href="http://www.twitter.com/edkhou">@edkhou</a>).</p>
 
 <p>Take care!</p>
 
 <p>Cheers, Ed</p>
 
 
+  
+    <h2>Stay Tuned...</h2>
+    
+    	<h4>Article written by edk.</h4>
+    
+    
+        <h4>Dec 10, 2011</h4>
+    
+    <h4>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/prewed" rel="tag">prewed</a></h4>
+    <p><p>A sneak peak of a pre-wed session!</p> <img src="https://lh4.googleusercontent.com/-ogfAfD7b4L8/TuISUcwEajI/AAAAAAAAAaw/oNTwv8LW57A/s640/20111210_stay_tuned.jpg"></p>
+    <a href="/2011/12-10-stay-tuned/">Read more...	</a>
   
     <h2>Hello World</h2>
     
@@ -101,9 +112,9 @@
   </body>
 </html>
 
-;T:rawI"<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
+;T:rawI"G<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
 
-<p>Plenty of content is in the pipeline but unfortunately will have to wait until all this is done so please do check back some time in the future. Hopefully by then I will have the foundation setup. All ready to go, for you.</p>
+<p>BUT functional. A bit. Content will trickle through while I continue to work on it so continue checking back or follow me on FaceBook (<a href="http://www.facebook.com/edkhouphoto">edkhouphoto</a>) or Twitter (<a href="http://www.twitter.com/edkhou">@edkhou</a>).</p>
 
 <p>Take care!</p>
 
@@ -121,16 +132,26 @@
     <h4>Tags: <%= tags_for(article) %></h4>
     <p><%= article[:excerpt] %></p>
     <a href="<%= article.path %>">Read more...	</a>
-<% end %>;T:preI"w
-<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
+<% end %>;T:preI"ç<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
 
-<p>Plenty of content is in the pipeline but unfortunately will have to wait until all this is done so please do check back some time in the future. Hopefully by then I will have the foundation setup. All ready to go, for you.</p>
+<p>BUT functional. A bit. Content will trickle through while I continue to work on it so continue checking back or follow me on FaceBook (<a href="http://www.facebook.com/edkhouphoto">edkhouphoto</a>) or Twitter (<a href="http://www.twitter.com/edkhou">@edkhou</a>).</p>
 
 <p>Take care!</p>
 
 <p>Cheers, Ed</p>
 
 
+  
+    <h2>Stay Tuned...</h2>
+    
+    	<h4>Article written by edk.</h4>
+    
+    
+        <h4>Dec 10, 2011</h4>
+    
+    <h4>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/prewed" rel="tag">prewed</a></h4>
+    <p><p>A sneak peak of a pre-wed session!</p> <img src="https://lh4.googleusercontent.com/-ogfAfD7b4L8/TuISUcwEajI/AAAAAAAAAaw/oNTwv8LW57A/s640/20111210_stay_tuned.jpg"></p>
+    <a href="/2011/12-10-stay-tuned/">Read more...	</a>
   
     <h2>Hello World</h2>
     
@@ -176,7 +197,7 @@
     <p>Welcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.</p>
     <a href="/2011/20111002-edk-photography-going-backwards/">Read more...	</a>
 ;T:	post@
-I"/stylesheet/;T{;{;I">* {
+I"/stylesheet/;T{;{;I"@* {
   margin: 0;
   padding: 0;
 
@@ -248,7 +269,7 @@ a:hover {
 }
 
 #main ul, #main ol {
-  margin: 20px;
+  margin: 20px 0;
 }
 
 #main li {
@@ -1338,7 +1359,7 @@ I"õUni exams long gone. Summer trip (or winter for some of you) coming up. Wha
 
 ;T;	I"!Another blog post. How lame.;T;
 I")<p>Another blog post. How lame.</p>
-;T;@hI"/archives/;T{;{	;I"õ<!DOCTYPE HTML>
+;T;@hI"/archives/;T{;{	;I"Á<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1362,6 +1383,10 @@ I")<p>Another blog post. How lame.</p>
 	
 	<h3>2011 December</h3>
 	<ul>
+		
+			<li>
+				<a href="/2011/12-10-stay-tuned/">Stay Tuned...</a>
+			</li>
 		
 			<li>
 				<a href="/2011/12-09-hello-world/">Hello World</a>
@@ -1433,10 +1458,14 @@ I")<p>Another blog post. How lame.</p>
 	<% end %>
 
 <% end %>;T;
-I"ƒ
+I"
 	
 	<h3>2011 December</h3>
 	<ul>
+		
+			<li>
+				<a href="/2011/12-10-stay-tuned/">Stay Tuned...</a>
+			</li>
 		
 			<li>
 				<a href="/2011/12-09-hello-world/">Hello World</a>
@@ -1546,4 +1575,61 @@ I",<p>A refresh at last. I think it is time to move on now *yay*.</p> <img src
 
 <p>Anyways, it is 4AM. Time to calibrate the screens. Pictures coming out temperature cool? Till next time!</p>
 
-<p><a href="/">Return home...</a></p>;T;@t:versioni
+<p><a href="/">Return home...</a></p>;T;@tI"/2011/12-10-stay-tuned/;T{;{	;I"©<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Stay Tuned...</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+  </head>
+  <body>
+
+  
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <h2>Stay Tuned...</h2>
+      
+        <h4>This page was written by edk.</h4>
+      
+      <h4>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/prewed" rel="tag">prewed</a></h4>
+      <p>A sneak peak of a pre-wed session!</p> <img src="https://lh4.googleusercontent.com/-ogfAfD7b4L8/TuISUcwEajI/AAAAAAAAAaw/oNTwv8LW57A/s640/20111210_stay_tuned.jpg">
+
+<p><a href="/">Return home...</a></p> 
+      <div id="content-footer">
+        <div id="share">
+          <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});</script>
+        </div>
+
+        <p>EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU</p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"A<%= item[:excerpt] %>
+
+<p><a href="/">Return home...</a></p>;T;
+I"Ã<p>A sneak peak of a pre-wed session!</p> <img src="https://lh4.googleusercontent.com/-ogfAfD7b4L8/TuISUcwEajI/AAAAAAAAAaw/oNTwv8LW57A/s640/20111210_stay_tuned.jpg">
+
+<p><a href="/">Return home...</a></p>;T;@z:versioni
