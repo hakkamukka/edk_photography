@@ -8,6 +8,8 @@ kind: article
 created_at: 2011/10/02
 
 excerpt: Welcome to the new EdK Photography, by Edward Khou. While the site may appear to have gone backwards aesthetically and functionally, I hope this will change in the months ahead as I tweak this site.
+
+footer: <div><span  class='st_twitter_hcount' displayText='Tweet'></span><span  class='st_facebook_hcount' displayText='Facebook'></span><span  class='st_fblike_hcount' ></span><span  class='st_plusone_hcount' ></span></div>
 ---
 <%= item[:excerpt] %>
 
@@ -25,4 +27,19 @@ excerpt: Welcome to the new EdK Photography, by Edward Khou. While the site may 
 
 <p>Have a good one!</p>
 
+<%= item[:footer] %>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'edkphotography'; // required: replace example with your forum shortname
 
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<a href="/">Return home...</a>

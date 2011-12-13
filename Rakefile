@@ -1,10 +1,14 @@
-begin
+# begin
   require 'nanoc3/tasks'
   require 'fileutils'
-rescue LoadError
+# rescue LoadError
   require 'rubygems'
   require 'nanoc3/tasks'
-end
+# end
+
+require 'rake'
+require 'rdoc'
+require 'date'
 
 #edk - s3 bucket variable
 s3_bucket = "www.edkhou.com"
@@ -12,7 +16,7 @@ s3_bucket = "www.edkhou.com"
 desc "Deploy website via s3cmd"
 task :s3 do
   puts "## Deploying website via s3cmd"
-  ok_failed system("s3cmd sync --acl-public --reduced-redundancy public/* s3://#{s3_bucket}/")
+  ok_failed system("s3cmd sync --acl-public --reduced-redundancy output/* s3://#{s3_bucket}/")
 end
 
 
@@ -47,11 +51,28 @@ kind: article
 created_at: #{@ymd2}
 
 excerpt:
+
+footer: <div><span  class='st_twitter_hcount' displayText='Tweet'></span><span  class='st_facebook_hcount' displayText='Facebook'></span><span  class='st_fblike_hcount' ></span><span  class='st_plusone_hcount' ></span></div>
 ---
 <%= item[:excerpt] %>
 
 INSERT CONTENT IN EXCERPT AS WELL HERE
 
+<%= item[:footer] %>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'edkphotography'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 <p><a href="/">Return home...</a></p>
 
 TEMPLATE
@@ -66,6 +87,14 @@ TEMPLATE
     path = "content/" + year + "/" 
     filename = month_day + "-" + title.parameterize('-') + ".html"
     [path, filename, path + filename]
+  end
+end
+
+def ok_failed(condition)
+  if (condition)
+    puts "OK"
+  else
+    puts "FAILED"
   end
 end
 
