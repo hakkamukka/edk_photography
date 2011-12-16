@@ -1,4 +1,5 @@
-{:	data{I"/:ET{:default{	:	lastI"!<!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"
+$<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -41,6 +42,19 @@
 <p>Cheers, Ed</p>
 
 
+  
+    <h2>Delish Food!</h2>
+    
+    	<h4>Article written by edk.</h4>
+    
+    
+        <h4>Dec 16, 2011</h4>
+    
+    <h4>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/food" rel="tag">food</a>, <a href="http://technorati.com/tag/christmas dinner" rel="tag">christmas dinner</a></h4>
+    <p><img src="https://lh5.googleusercontent.com/-wD20PIWIbX0/TuskiZvkYVI/AAAAAAAAAkI/WLbIfhlB5v8/s640/xmas_dinner_2011-01.jpg"></p>
+    <!-- <p><div><span  class='st_twitter_hcount' displayText='Tweet'></span><span  class='st_facebook_hcount' displayText='Facebook'></span><span  class='st_fblike_hcount' ></span><span  class='st_plusone_hcount' ></span></div></p> -->
+
+    <a href="/2011/12-16-delish-food/">Read more...	</a>
   
     <h2>Budi & Eldora - A Pre Wedding</h2>
     
@@ -189,7 +203,7 @@
     <!-- <p><%= article[:footer] %></p> -->
 
     <a href="<%= article.path %>">Read more...	</a>
-<% end %>;T:preI"⁄<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
+<% end %>;T:preI"‹<p>Welcome to EdK Photography! This site is under construction. That is right. AGAIN!</p>
 
 <p>BUT functional. A bit. Content will trickle through while I continue to work on it so continue checking back or follow me on FaceBook (<a href="http://www.facebook.com/edkhouphoto">edkhouphoto</a>) or Twitter (<a href="http://www.twitter.com/edkhou">@edkhou</a>).</p>
 
@@ -198,6 +212,19 @@
 <p>Cheers, Ed</p>
 
 
+  
+    <h2>Delish Food!</h2>
+    
+    	<h4>Article written by edk.</h4>
+    
+    
+        <h4>Dec 16, 2011</h4>
+    
+    <h4>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/food" rel="tag">food</a>, <a href="http://technorati.com/tag/christmas dinner" rel="tag">christmas dinner</a></h4>
+    <p><img src="https://lh5.googleusercontent.com/-wD20PIWIbX0/TuskiZvkYVI/AAAAAAAAAkI/WLbIfhlB5v8/s640/xmas_dinner_2011-01.jpg"></p>
+    <!-- <p><div><span  class='st_twitter_hcount' displayText='Tweet'></span><span  class='st_facebook_hcount' displayText='Facebook'></span><span  class='st_fblike_hcount' ></span><span  class='st_plusone_hcount' ></span></div></p> -->
+
+    <a href="/2011/12-16-delish-food/">Read more...	</a>
   
     <h2>Budi & Eldora - A Pre Wedding</h2>
     
@@ -1691,7 +1718,7 @@ I"—Uni exams long gone. Summer trip (or winter for some of you) coming up. Wha
 
 ;T;	I"!Another blog post. How lame.;T;
 I")<p>Another blog post. How lame.</p>
-;T;@hI"/archives/;T{;{	;I"˛<!DOCTYPE HTML>
+;T;@hI"/archives/;T{;{	;I"J<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -1729,6 +1756,10 @@ I")<p>Another blog post. How lame.</p>
 	
 	<h3>2011 December</h3>
 	<ul>
+		
+			<li>
+				<a href="/2011/12-16-delish-food/">Delish Food!</a>
+			</li>
 		
 			<li>
 				<a href="/2011/12-11-budi-eldora-a-pre-wedding/">Budi & Eldora - A Pre Wedding</a>
@@ -1817,10 +1848,14 @@ I")<p>Another blog post. How lame.</p>
 	<% end %>
 
 <% end %>;T;
-I"∏
+I"
 	
 	<h3>2011 December</h3>
 	<ul>
+		
+			<li>
+				<a href="/2011/12-16-delish-food/">Delish Food!</a>
+			</li>
 		
 			<li>
 				<a href="/2011/12-11-budi-eldora-a-pre-wedding/">Budi & Eldora - A Pre Wedding</a>
@@ -2943,4 +2978,299 @@ I"Ì<p>... Plenty of it.</p><img src="https://lh5.googleusercontent.com/-WqqYF2
 
 ;T;	I":google-site-verification: google84ac429694307cd9.html;T;
 I"B<p>google-site-verification: google84ac429694307cd9.html</p>
-;T;@ç:versioni
+;T;@çI"/2011/12-16-delish-food/;T{;{	;I"«<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EdK Photography - Delish Food!</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.2.3">
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20482511-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    <script type="text/javascript">
+      var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'c0e20592-7057-4273-a415-26a686c7a1ac'});
+    </script>
+
+  </head>
+  <body>
+    <div id="main">
+      <a href="/">
+        <img src="https://lh3.googleusercontent.com/-hftrejrf0zw/Tokp6ZNM0JI/AAAAAAAAAWg/Tb8peOU2BwY/s800/edklogo_subheader.png" alt="EdK Photography | Sydney Based Photographer">
+      </a>
+      <h2>Delish Food!</h2>
+      
+        <h4>This page was written by edk.</h4>
+      
+      <h4>Tags: <a href="http://technorati.com/tag/edk" rel="tag">edk</a>, <a href="http://technorati.com/tag/food" rel="tag">food</a>, <a href="http://technorati.com/tag/christmas dinner" rel="tag">christmas dinner</a></h4>
+      <img src="https://lh5.googleusercontent.com/-wD20PIWIbX0/TuskiZvkYVI/AAAAAAAAAkI/WLbIfhlB5v8/s640/xmas_dinner_2011-01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-fyz_4yDy8sc/TuskiuraN7I/AAAAAAAAAkQ/wo_iLUpw5w8/s640/xmas_dinner_2011-02.jpg">
+
+<img src="https://lh3.googleusercontent.com/-OVx3T5XBOTY/Tuski_zc42I/AAAAAAAAAkM/qmJ-fkqGklk/s640/xmas_dinner_2011-03.jpg">
+
+<img src="https://lh4.googleusercontent.com/-8ofS4qQokps/Tuskj6hp3JI/AAAAAAAAAkc/Z4AhhyXIQdk/s640/xmas_dinner_2011-04.jpg">
+
+<img src="https://lh3.googleusercontent.com/-X5D3wk1CkgM/TuskkwpQjKI/AAAAAAAAAkw/RjMs8YUHbA0/s640/xmas_dinner_2011-05.jpg">
+
+<img src="https://lh5.googleusercontent.com/-EcTOM9W1ixc/TusklVkcghI/AAAAAAAAAko/bGfFHpiuaiQ/s640/xmas_dinner_2011-06.jpg">
+
+<img src="https://lh3.googleusercontent.com/-d4W4yPrHRRs/Tuskl21sDsI/AAAAAAAAAks/nca30YkczFA/s640/xmas_dinner_2011-07.jpg">
+
+<img src="https://lh6.googleusercontent.com/-_cMuA68zVe4/Tuskm21bv1I/AAAAAAAAAlA/TmffrWi1tD0/s640/xmas_dinner_2011-08.jpg">
+
+<img src="https://lh5.googleusercontent.com/-ueVfmZUFF9I/Tusknk6_02I/AAAAAAAAAlE/XEsZCQbkSws/s640/xmas_dinner_2011-09.jpg">
+
+<img src="https://lh5.googleusercontent.com/-pgtGjcEsB44/TussKkQjF6I/AAAAAAAAApA/_iaMYR_OfCE/s640/xmas_dinner_2011_adjust-10.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ED-Zaw_3su0/TuskpkGKaMI/AAAAAAAAAlY/CYc1Ok6UQx8/s640/xmas_dinner_2011-11.jpg">
+
+<img src="https://lh5.googleusercontent.com/-OhoXe2ErKlE/TuskrNXl5MI/AAAAAAAAAlk/9s8o-XDfJnY/s640/xmas_dinner_2011-12.jpg">
+
+<img src="https://lh4.googleusercontent.com/-8W7XwaDQRkE/Tuskqgvek6I/AAAAAAAAAlg/IXidyh6ggWk/s640/xmas_dinner_2011-13.jpg">
+
+<img src="https://lh5.googleusercontent.com/-5BLtQZHam50/Tuskr8oCEaI/AAAAAAAAAls/kEXBYWvVnDQ/s640/xmas_dinner_2011-14.jpg">
+
+<img src="https://lh5.googleusercontent.com/-xhq-q8V7Ieg/Tuskt26OrLI/AAAAAAAAAl4/lVKWVzUKt7U/s640/xmas_dinner_2011-15.jpg">
+
+<img src="https://lh6.googleusercontent.com/-zPHYfL-dxck/TuskubBF5_I/AAAAAAAAAl8/z8AmWqwoqeU/s640/xmas_dinner_2011-16.jpg">
+
+<img src="https://lh5.googleusercontent.com/-dSzucYp13F8/Tuskuk3jYEI/AAAAAAAAAmE/LSlI6bdf5J8/s640/xmas_dinner_2011-17.jpg">
+
+<img src="https://lh6.googleusercontent.com/-IJZPglnccGg/TuskvThlB2I/AAAAAAAAAmQ/qczJQ_PK8RY/s640/xmas_dinner_2011-18.jpg">
+
+<img src="https://lh4.googleusercontent.com/-V6PsWQvJqC8/TussT5D1tGI/AAAAAAAAAqU/lShDP-Plj80/s640/xmas_dinner_2011_adjust-19.jpg">
+
+<img src="https://lh6.googleusercontent.com/-BkhjgOTjg3Q/TuskwiI0wyI/AAAAAAAAAmU/oBdUx2idBvk/s640/xmas_dinner_2011-20.jpg">
+
+<img src="https://lh5.googleusercontent.com/-cA7Mo2hR5uQ/Tuskx7MqViI/AAAAAAAAAmk/5LhZERz7NAA/s640/xmas_dinner_2011-21.jpg">
+
+<img src="https://lh6.googleusercontent.com/-M7HWG6ivVlQ/Tuskyzo7iXI/AAAAAAAAAms/yBBaOMCGY1E/s640/xmas_dinner_2011-22.jpg">
+
+<img src="https://lh6.googleusercontent.com/-1mMANCsmens/TussWr0ElkI/AAAAAAAAAqw/U16_JZTMKbw/s640/xmas_dinner_2011_adjust-23.jpg">
+
+<img src="https://lh3.googleusercontent.com/-zfJ89yQgSNw/Tusk0EonFEI/AAAAAAAAAnA/XBaDMtf20CQ/s640/xmas_dinner_2011-24.jpg">
+
+<img src="https://lh5.googleusercontent.com/-SdygcODbxuM/Tusk1DRFtYI/AAAAAAAAAnI/MA5mdqCO_BA/s640/xmas_dinner_2011-25.jpg">
+
+<img src="https://lh6.googleusercontent.com/-ZnXD__6CwU4/Tusk1guglUI/AAAAAAAAAnE/g8rRBBw55iY/s640/xmas_dinner_2011-26.jpg">
+
+<img src="https://lh5.googleusercontent.com/-nWidU3KWZw0/Tusk2fQQYJI/AAAAAAAAAnQ/Vu9yBcLGHxo/s640/xmas_dinner_2011-27.jpg">
+
+<img src="https://lh3.googleusercontent.com/-GUnD9flnrkw/Tussa3KoZaI/AAAAAAAAArc/tRs2lmqYT94/s640/xmas_dinner_2011_adjust-28.jpg">
+
+<img src="https://lh6.googleusercontent.com/-anYwjyBCyAI/TussbRJlvaI/AAAAAAAAArk/YeO6FFoSW_w/s640/xmas_dinner_2011_adjust-29.jpg">
+
+<img src="https://lh3.googleusercontent.com/-V-5bK__GIWc/TusscDXfE8I/AAAAAAAAArw/0sr_Nad7-KY/s640/xmas_dinner_2011_adjust-30.jpg">
+
+<div><span  class='st_twitter_hcount' displayText='Tweet'></span><span  class='st_facebook_hcount' displayText='Facebook'></span><span  class='st_fblike_hcount' ></span><span  class='st_plusone_hcount' ></span></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'edkphotography'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<p><a href="/">Return home...</a></p> 
+        
+                
+
+      <div id="content-footer">
+        <div id="share">
+
+        </div>
+
+        <p>
+        EDK PHOTOGRAPHY | SYDNEY BASED PHOTOGRAPHER | ALL IMAGES AND CONTENT COPYRIGHT 2011 | EDWARD KHOU
+        </p>
+
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/index.html">About Me</a></li>
+        <li><a href="/contact-me/index.html">Contact Me</a></li>
+        <li><a href="/archives/index.html">Archives</a></li>
+      </ul>
+      <h2>Social</h2>
+      <ul>
+        <li><a href="http://www.facebook.com/edkhouphoto">Facebook Page</a></li>
+        <li><a href="http://www.twitter.com/edkhou">Twitter</a></li>
+        <li><a href="">YouTube</a></li>
+        <li><a href="">Vimeo</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+;T;	I"<%= item[:excerpt] %>
+
+<img src="https://lh4.googleusercontent.com/-fyz_4yDy8sc/TuskiuraN7I/AAAAAAAAAkQ/wo_iLUpw5w8/s640/xmas_dinner_2011-02.jpg">
+
+<img src="https://lh3.googleusercontent.com/-OVx3T5XBOTY/Tuski_zc42I/AAAAAAAAAkM/qmJ-fkqGklk/s640/xmas_dinner_2011-03.jpg">
+
+<img src="https://lh4.googleusercontent.com/-8ofS4qQokps/Tuskj6hp3JI/AAAAAAAAAkc/Z4AhhyXIQdk/s640/xmas_dinner_2011-04.jpg">
+
+<img src="https://lh3.googleusercontent.com/-X5D3wk1CkgM/TuskkwpQjKI/AAAAAAAAAkw/RjMs8YUHbA0/s640/xmas_dinner_2011-05.jpg">
+
+<img src="https://lh5.googleusercontent.com/-EcTOM9W1ixc/TusklVkcghI/AAAAAAAAAko/bGfFHpiuaiQ/s640/xmas_dinner_2011-06.jpg">
+
+<img src="https://lh3.googleusercontent.com/-d4W4yPrHRRs/Tuskl21sDsI/AAAAAAAAAks/nca30YkczFA/s640/xmas_dinner_2011-07.jpg">
+
+<img src="https://lh6.googleusercontent.com/-_cMuA68zVe4/Tuskm21bv1I/AAAAAAAAAlA/TmffrWi1tD0/s640/xmas_dinner_2011-08.jpg">
+
+<img src="https://lh5.googleusercontent.com/-ueVfmZUFF9I/Tusknk6_02I/AAAAAAAAAlE/XEsZCQbkSws/s640/xmas_dinner_2011-09.jpg">
+
+<img src="https://lh5.googleusercontent.com/-pgtGjcEsB44/TussKkQjF6I/AAAAAAAAApA/_iaMYR_OfCE/s640/xmas_dinner_2011_adjust-10.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ED-Zaw_3su0/TuskpkGKaMI/AAAAAAAAAlY/CYc1Ok6UQx8/s640/xmas_dinner_2011-11.jpg">
+
+<img src="https://lh5.googleusercontent.com/-OhoXe2ErKlE/TuskrNXl5MI/AAAAAAAAAlk/9s8o-XDfJnY/s640/xmas_dinner_2011-12.jpg">
+
+<img src="https://lh4.googleusercontent.com/-8W7XwaDQRkE/Tuskqgvek6I/AAAAAAAAAlg/IXidyh6ggWk/s640/xmas_dinner_2011-13.jpg">
+
+<img src="https://lh5.googleusercontent.com/-5BLtQZHam50/Tuskr8oCEaI/AAAAAAAAAls/kEXBYWvVnDQ/s640/xmas_dinner_2011-14.jpg">
+
+<img src="https://lh5.googleusercontent.com/-xhq-q8V7Ieg/Tuskt26OrLI/AAAAAAAAAl4/lVKWVzUKt7U/s640/xmas_dinner_2011-15.jpg">
+
+<img src="https://lh6.googleusercontent.com/-zPHYfL-dxck/TuskubBF5_I/AAAAAAAAAl8/z8AmWqwoqeU/s640/xmas_dinner_2011-16.jpg">
+
+<img src="https://lh5.googleusercontent.com/-dSzucYp13F8/Tuskuk3jYEI/AAAAAAAAAmE/LSlI6bdf5J8/s640/xmas_dinner_2011-17.jpg">
+
+<img src="https://lh6.googleusercontent.com/-IJZPglnccGg/TuskvThlB2I/AAAAAAAAAmQ/qczJQ_PK8RY/s640/xmas_dinner_2011-18.jpg">
+
+<img src="https://lh4.googleusercontent.com/-V6PsWQvJqC8/TussT5D1tGI/AAAAAAAAAqU/lShDP-Plj80/s640/xmas_dinner_2011_adjust-19.jpg">
+
+<img src="https://lh6.googleusercontent.com/-BkhjgOTjg3Q/TuskwiI0wyI/AAAAAAAAAmU/oBdUx2idBvk/s640/xmas_dinner_2011-20.jpg">
+
+<img src="https://lh5.googleusercontent.com/-cA7Mo2hR5uQ/Tuskx7MqViI/AAAAAAAAAmk/5LhZERz7NAA/s640/xmas_dinner_2011-21.jpg">
+
+<img src="https://lh6.googleusercontent.com/-M7HWG6ivVlQ/Tuskyzo7iXI/AAAAAAAAAms/yBBaOMCGY1E/s640/xmas_dinner_2011-22.jpg">
+
+<img src="https://lh6.googleusercontent.com/-1mMANCsmens/TussWr0ElkI/AAAAAAAAAqw/U16_JZTMKbw/s640/xmas_dinner_2011_adjust-23.jpg">
+
+<img src="https://lh3.googleusercontent.com/-zfJ89yQgSNw/Tusk0EonFEI/AAAAAAAAAnA/XBaDMtf20CQ/s640/xmas_dinner_2011-24.jpg">
+
+<img src="https://lh5.googleusercontent.com/-SdygcODbxuM/Tusk1DRFtYI/AAAAAAAAAnI/MA5mdqCO_BA/s640/xmas_dinner_2011-25.jpg">
+
+<img src="https://lh6.googleusercontent.com/-ZnXD__6CwU4/Tusk1guglUI/AAAAAAAAAnE/g8rRBBw55iY/s640/xmas_dinner_2011-26.jpg">
+
+<img src="https://lh5.googleusercontent.com/-nWidU3KWZw0/Tusk2fQQYJI/AAAAAAAAAnQ/Vu9yBcLGHxo/s640/xmas_dinner_2011-27.jpg">
+
+<img src="https://lh3.googleusercontent.com/-GUnD9flnrkw/Tussa3KoZaI/AAAAAAAAArc/tRs2lmqYT94/s640/xmas_dinner_2011_adjust-28.jpg">
+
+<img src="https://lh6.googleusercontent.com/-anYwjyBCyAI/TussbRJlvaI/AAAAAAAAArk/YeO6FFoSW_w/s640/xmas_dinner_2011_adjust-29.jpg">
+
+<img src="https://lh3.googleusercontent.com/-V-5bK__GIWc/TusscDXfE8I/AAAAAAAAArw/0sr_Nad7-KY/s640/xmas_dinner_2011_adjust-30.jpg">
+
+<%= item[:footer] %>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'edkphotography'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<p><a href="/">Return home...</a></p>;T;
+I",<img src="https://lh5.googleusercontent.com/-wD20PIWIbX0/TuskiZvkYVI/AAAAAAAAAkI/WLbIfhlB5v8/s640/xmas_dinner_2011-01.jpg">
+
+<img src="https://lh4.googleusercontent.com/-fyz_4yDy8sc/TuskiuraN7I/AAAAAAAAAkQ/wo_iLUpw5w8/s640/xmas_dinner_2011-02.jpg">
+
+<img src="https://lh3.googleusercontent.com/-OVx3T5XBOTY/Tuski_zc42I/AAAAAAAAAkM/qmJ-fkqGklk/s640/xmas_dinner_2011-03.jpg">
+
+<img src="https://lh4.googleusercontent.com/-8ofS4qQokps/Tuskj6hp3JI/AAAAAAAAAkc/Z4AhhyXIQdk/s640/xmas_dinner_2011-04.jpg">
+
+<img src="https://lh3.googleusercontent.com/-X5D3wk1CkgM/TuskkwpQjKI/AAAAAAAAAkw/RjMs8YUHbA0/s640/xmas_dinner_2011-05.jpg">
+
+<img src="https://lh5.googleusercontent.com/-EcTOM9W1ixc/TusklVkcghI/AAAAAAAAAko/bGfFHpiuaiQ/s640/xmas_dinner_2011-06.jpg">
+
+<img src="https://lh3.googleusercontent.com/-d4W4yPrHRRs/Tuskl21sDsI/AAAAAAAAAks/nca30YkczFA/s640/xmas_dinner_2011-07.jpg">
+
+<img src="https://lh6.googleusercontent.com/-_cMuA68zVe4/Tuskm21bv1I/AAAAAAAAAlA/TmffrWi1tD0/s640/xmas_dinner_2011-08.jpg">
+
+<img src="https://lh5.googleusercontent.com/-ueVfmZUFF9I/Tusknk6_02I/AAAAAAAAAlE/XEsZCQbkSws/s640/xmas_dinner_2011-09.jpg">
+
+<img src="https://lh5.googleusercontent.com/-pgtGjcEsB44/TussKkQjF6I/AAAAAAAAApA/_iaMYR_OfCE/s640/xmas_dinner_2011_adjust-10.jpg">
+
+<img src="https://lh4.googleusercontent.com/-ED-Zaw_3su0/TuskpkGKaMI/AAAAAAAAAlY/CYc1Ok6UQx8/s640/xmas_dinner_2011-11.jpg">
+
+<img src="https://lh5.googleusercontent.com/-OhoXe2ErKlE/TuskrNXl5MI/AAAAAAAAAlk/9s8o-XDfJnY/s640/xmas_dinner_2011-12.jpg">
+
+<img src="https://lh4.googleusercontent.com/-8W7XwaDQRkE/Tuskqgvek6I/AAAAAAAAAlg/IXidyh6ggWk/s640/xmas_dinner_2011-13.jpg">
+
+<img src="https://lh5.googleusercontent.com/-5BLtQZHam50/Tuskr8oCEaI/AAAAAAAAAls/kEXBYWvVnDQ/s640/xmas_dinner_2011-14.jpg">
+
+<img src="https://lh5.googleusercontent.com/-xhq-q8V7Ieg/Tuskt26OrLI/AAAAAAAAAl4/lVKWVzUKt7U/s640/xmas_dinner_2011-15.jpg">
+
+<img src="https://lh6.googleusercontent.com/-zPHYfL-dxck/TuskubBF5_I/AAAAAAAAAl8/z8AmWqwoqeU/s640/xmas_dinner_2011-16.jpg">
+
+<img src="https://lh5.googleusercontent.com/-dSzucYp13F8/Tuskuk3jYEI/AAAAAAAAAmE/LSlI6bdf5J8/s640/xmas_dinner_2011-17.jpg">
+
+<img src="https://lh6.googleusercontent.com/-IJZPglnccGg/TuskvThlB2I/AAAAAAAAAmQ/qczJQ_PK8RY/s640/xmas_dinner_2011-18.jpg">
+
+<img src="https://lh4.googleusercontent.com/-V6PsWQvJqC8/TussT5D1tGI/AAAAAAAAAqU/lShDP-Plj80/s640/xmas_dinner_2011_adjust-19.jpg">
+
+<img src="https://lh6.googleusercontent.com/-BkhjgOTjg3Q/TuskwiI0wyI/AAAAAAAAAmU/oBdUx2idBvk/s640/xmas_dinner_2011-20.jpg">
+
+<img src="https://lh5.googleusercontent.com/-cA7Mo2hR5uQ/Tuskx7MqViI/AAAAAAAAAmk/5LhZERz7NAA/s640/xmas_dinner_2011-21.jpg">
+
+<img src="https://lh6.googleusercontent.com/-M7HWG6ivVlQ/Tuskyzo7iXI/AAAAAAAAAms/yBBaOMCGY1E/s640/xmas_dinner_2011-22.jpg">
+
+<img src="https://lh6.googleusercontent.com/-1mMANCsmens/TussWr0ElkI/AAAAAAAAAqw/U16_JZTMKbw/s640/xmas_dinner_2011_adjust-23.jpg">
+
+<img src="https://lh3.googleusercontent.com/-zfJ89yQgSNw/Tusk0EonFEI/AAAAAAAAAnA/XBaDMtf20CQ/s640/xmas_dinner_2011-24.jpg">
+
+<img src="https://lh5.googleusercontent.com/-SdygcODbxuM/Tusk1DRFtYI/AAAAAAAAAnI/MA5mdqCO_BA/s640/xmas_dinner_2011-25.jpg">
+
+<img src="https://lh6.googleusercontent.com/-ZnXD__6CwU4/Tusk1guglUI/AAAAAAAAAnE/g8rRBBw55iY/s640/xmas_dinner_2011-26.jpg">
+
+<img src="https://lh5.googleusercontent.com/-nWidU3KWZw0/Tusk2fQQYJI/AAAAAAAAAnQ/Vu9yBcLGHxo/s640/xmas_dinner_2011-27.jpg">
+
+<img src="https://lh3.googleusercontent.com/-GUnD9flnrkw/Tussa3KoZaI/AAAAAAAAArc/tRs2lmqYT94/s640/xmas_dinner_2011_adjust-28.jpg">
+
+<img src="https://lh6.googleusercontent.com/-anYwjyBCyAI/TussbRJlvaI/AAAAAAAAArk/YeO6FFoSW_w/s640/xmas_dinner_2011_adjust-29.jpg">
+
+<img src="https://lh3.googleusercontent.com/-V-5bK__GIWc/TusscDXfE8I/AAAAAAAAArw/0sr_Nad7-KY/s640/xmas_dinner_2011_adjust-30.jpg">
+
+<div><span  class='st_twitter_hcount' displayText='Tweet'></span><span  class='st_facebook_hcount' displayText='Facebook'></span><span  class='st_fblike_hcount' ></span><span  class='st_plusone_hcount' ></span></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'edkphotography'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<p><a href="/">Return home...</a></p>;T;@ì:versioni
